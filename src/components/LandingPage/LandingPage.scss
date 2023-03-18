@@ -31,12 +31,17 @@
     font-size: 72px;
     text-shadow: 2px 3px 5px black;
     filter: drop-shadow(0 0 0.75rem black);
+    font-family: "Great Vibes", cursive;
+    letter-spacing: 3px;
   }
   p {
     color: white;
-    font-size: 25px;
+    font-size: 22px;
+    line-height: 50px;
     filter: drop-shadow(0 0 0.75rem black);
     text-shadow: 2px 3px 5px black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
   }
   .arrow-animate {
     width: 60px;

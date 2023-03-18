@@ -17,7 +17,7 @@ const LandingPage = () => {
         <div className="text">
           <img src={logo} alt="" />
 
-          <h1>Skapa magi med oss på Köpmanberget`</h1>
+          <h1>Skapa magi med oss på Köpmanberget</h1>
           <p>
             Vi erbjuder event, catering, bröllop och fest som ger en magisk
             känsla
