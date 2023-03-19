@@ -1,6 +1,5 @@
 .lp-container {
-  height: calc(100px - 100%);
-  margin-bottom: 100px;
+  height: calc(100%);
 
   .video-container {
     width: 100%;
@@ -60,5 +59,13 @@
   img {
     width: 200px;
     filter: drop-shadow(0 0 0.75rem white);
+  }
+}
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: #1d1d1d;
+  }
+  .video-container {
+    display: none;
   }
 }
