@@ -31,7 +31,6 @@ h1 {
   .img-container {
     display: flex;
     align-items: center;
-    border: 1px solid red;
     justify-content: center;
     img {
       max-width: 500px;
@@ -73,11 +72,11 @@ h1 {
     .about-opacity {
       opacity: 0.7;
     }
-  }
-  .img-container img {
-    border-top-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    width: 80%;
-    box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.675);
+    .img-container img {
+      border-top-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      width: 80%;
+      box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.675);
+    }
   }
 }

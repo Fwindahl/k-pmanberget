@@ -22,11 +22,12 @@
 
   h1 {
     color: white;
-    font-size: 72px;
+    font-size: 62px;
     text-shadow: 2px 3px 5px black;
     filter: drop-shadow(0 0 0.75rem black);
-    font-family: "Great Vibes", cursive;
+    font-family: "Montserrat", sans-serif;
     letter-spacing: 3px;
+    text-transform: uppercase;
   }
   p {
     color: white;
@@ -63,12 +64,14 @@
   }
   .header-container {
     color: #1d1d1d;
+    position: static;
+    height: 70vh;
   }
   .video-container {
     display: none;
   }
   .text {
-    height: 80%;
+    min-height: 100%;
     h1 {
       font-size: 32px;
       color: black;

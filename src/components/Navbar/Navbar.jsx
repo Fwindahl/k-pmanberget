@@ -17,6 +17,11 @@ const Navbar = () => {
     <div className={color ? "header header-bg" : "header"}>
       <nav className="navbar">
         <ul>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <div className="li-container">
+              <li>Hem</li>
+            </div>
+          </Link>
           <Link style={{ textDecoration: "none" }}>
             <div className="li-container">
               <li>Event</li>
@@ -33,7 +38,7 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <Link style={{ textDecoration: "none" }}>
+          <Link to="/kontakt" style={{ textDecoration: "none" }}>
             <div className="li-container">
               <li>Kontakt</li>
             </div>

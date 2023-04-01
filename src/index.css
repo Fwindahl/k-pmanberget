@@ -14,6 +14,9 @@ body {
   font-family: "Great Vibes", cursive;
   font-family: "Montserrat", sans-serif;
 }
+section {
+  min-height: 100vh;
+}
 li:hover {
   animation: myAnim 1200ms ease 0s 1 normal forwards;
   color: #cbb26a;

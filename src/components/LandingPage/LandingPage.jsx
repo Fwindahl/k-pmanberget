@@ -3,6 +3,7 @@ import bgVideo from "../../../public/video/wedding.mp4";
 import arrow from "../../../public/img/arrow.png";
 import "../LandingPage/LandingPage.scss";
 import logo from "../../../public/img/logo.png";
+import AboutUs from "../AboutUs/AboutUs";
 
 const LandingPage = () => {
   return (
@@ -25,6 +26,7 @@ const LandingPage = () => {
           <img className="arrow-animate" src={arrow} alt="" />
         </div>
       </div>
+      <AboutUs />
     </div>
   );
 };
